@@ -1,85 +1,78 @@
 # The Candle Stick Trading Bible
-# By Munehisa Homma
+## By Munehisa Homma
 
-# What is a candlestick
-"""
+## What is a candlestick
+
 Candles vs Wicks
-Top/Bottom of Candle: Represents Open/CLose Prices
-Top Bottom of Wick: Represents High/Low of candle timeframe
+>- Top/Bottom of Candle: Represents Open/Cose Prices
+>- Top Bottom of Wick: Represents High/Low of candle timeframe
 
-If Candle is:
-    - above open, candlestick = bullish
-    - below open, candlestick = bearish
+If Candle closes:
+>- **above open**, candlestick = bullish
+>- **below open**, candlestick = bearish
 
 If Candle body is:
-    - Long: Strong buying/selling pressure
-    - Short: Little buying/selling activity
+>- Long: Strong buying/selling pressure
+>- Short: Little buying/selling activity
 
 If wick is:
-    - Long Upper Wick + Short Lower Wick: Buyers bought and bid higher price
+>- Long Upper Wick + Short Lower Wick: Buyers bought and bid higher price
         but sellers drove price back to open price
-    - Short Upper Wick + Long Lower Wick: Sellers sold and forced lower prices
+>- Short Upper Wick + Long Lower Wick: Sellers sold and forced lower prices
         but buyers came in and drove prices back to open
-"""
 
-# Engulfing Bar Candlestick Pattern
-"""
-This is when the current candle fully engulfs the previous candle
-    - Must consume more than one previous candle
+
+## Engulfing Bar Candlestick Pattern
+ This is when the current candle fully **engulfs** the previous candle
+> - Must consume at **least more** than one previous candle
     
-Bearish Engulfing Bar
-    - First body is smaller than the second body 
-    - Bearish candle (Close is lower than open) 
-    - Signifies that sellers are in control -> Trend reversal
-        This means that there's a high chance that price will start a downtrend
+**Bearish Engulfing Bar**
+>    - First body is smaller than the second body 
+>    - Bearish candle (Close is lower than open) 
+>    - Signifies that sellers are in control
+>       - Trend reversal
+>       - This means that there's a high chance that price will start a downtrend
         
-Bullish Engulfing Bar
-    - Similar to Bearish Engulfing, first candle is small and second engulfs it
-    - Signifies sellers are no longer in control of the market
-        Buyers are stepping in and taking control of the market
-    - When bullish engulfing bar forms at the end of a downtrend, 
-        reversal is much more powerful -> Represents capitulation bottom
-    - Capitulation means people are giving up and selling the stock
-        so capitulation bottom means people are done selling and are ready to buy again
-"""
+**Bullish Engulfing Bar**
+>- Similar to Bearish Engulfing, first candle is small and second engulfs it
+>- Signifies sellers are no longer in control of the market
+>        Buyers are stepping in and taking control of the market
+>- When bullish engulfing bar forms at the end of a downtrend, 
+>        reversal is much more powerful 
+>  - Represents capitulation bottom
+>  - Capitulation means people are giving up and selling the stock
+>  - Capitulation bottom means people are done selling and are ready to buy again
 
-# Doji Candlestick Pattern
-"""
+## Doji Candlestick Pattern
 Doji Candlestick occurs when the candle is all wick
-    - This means that the market opened and closed at the same price
-    - Equality and indecision between buyers and sellers
-        No one is in control
-    - Normally means that market is about to reverse or prior trend losing strength
-        ie Uptrend into a doji candlestick normally means it's about to reverse
-    - Could also mean period of resting after big moves
-    - Normally means time to take profits or time to enter
-"""
+>    - This means that the market opened and closed at the same price
+>    - Equality and indecision between buyers and sellers 
+>        - No one is in control
+>    - Normally means that market is about to reverse or prior trend losing strength
+>        - ie Uptrend into a doji candlestick normally means it's about to reverse
+>    - Could also mean period of resting after big moves
+>    - Normally means time to take profits or time to enter
 
-# Dragonfly Doji Pattern
-"""
+## Dragonfly Doji Pattern
 This pattern forms when open + high and close are around the same price 
     and then there is a long lower wick
     
-    - This means that there is resistance from buyers and is their attempt to 
+>    - This means that there is resistance from buyers and is their attempt to 
         push the market up
-    - You can use this pattern to identify support and resistance
-    - When this occurs during a downtrend, it is interpreted as a 
+>    - You can use this pattern to identify support and resistance
+>    - When this occurs during a downtrend, it is interpreted as a 
         bullish reversal signal
-"""
 
-# Gravestone Doji Pattern
-"""
+## Gravestone Doji Pattern
 Gravestone Doji is the bearish version of the dragonfly doji
-    Open and close are around the same price but long upper tail
+> - Open and close are around the same price but long upper wick
     
     - Buyers push price past open price but sellers overwhelm buyers and
         push it back to open price
     - Signifies that buyers are losing momentum and market is ready for reversal
     - For this pattern to be reliable, it must occur near resistance level
-"""
 
-# Morning Star Pattern
-"""
+## Morning Star Pattern
 Bullish Reversal Pattern - Normally happens at the bottom of a downtrend
     - Holds significant trend reversal signal
 
@@ -89,10 +82,8 @@ Consist of three candlesticks:
         much lower (can be bullish or bearish candle)
     - Third candle is bullish that gapped up on open and closed above the midpoint
         of the first candle
-"""
 
-# Evening Star Pattern
-"""
+## Evening Star Pattern
 Bearish Reversal Pattern - Normally happens at the top of an uptrend
 
 Consist of three candlesticks:
@@ -100,11 +91,9 @@ Consist of three candlesticks:
     - Second candle is a small candlestick meaning that not many more buyers 
         This candle normally means price consolidation and indecision
     - Third candle is a large bearish candle
-    
-"""
 
-# Hammer Pattern
-"""
+
+## Hammer Pattern
 Open + High and Close are roughly the same price but long lower wick
     Similar to dragonfly Doji but the hammer occurs at the bottom of a downtrend
         - Hammer also closes slightly higher than the open whereas dragonfly
@@ -116,10 +105,8 @@ Open + High and Close are roughly the same price but long lower wick
         sellers trying to push the market lower
     - Buying pressure > Selling pressure
     - Results in a trend reversal
-"""
 
-# Shooting Star Pattern
-"""
+## Shooting Star Pattern
 Reverse Hammer Pattern:
     Short candle, long upper wick (wick should be at least twice the length of candle)
     
@@ -128,10 +115,8 @@ Reverse Hammer Pattern:
         Rejected by selling pressure
     - When this candle forms near resistance level, high probability
         of downtrend
-"""
 
-# Harami Pattern
-"""
+## Harami Pattern
 Considered a reversal and continuation pattern
 
 Consists of two candlesticks
@@ -145,10 +130,8 @@ Consists of two candlesticks
         which means it's an opportunity to join the trend
     - If it occurs at the top of an uptrend or bottom of a downtrend
         it means that it's a trend reversal signal
-"""
 
-# Tweezers Pattern
-"""
+## Tweezers Pattern
 There are two Tweezers Patterns
 
 Tweezers Top Formation
@@ -172,10 +155,8 @@ Tweezers Bottom Formation
         This means that buyers are coming to reverse the market direction
     - If this happens near a support level, a bearish reversal is likely
         about to happen
-"""
 
-# Candlestick Pattern Exercise Notes
-"""
+## Candlestick Pattern Exercise Notes
 [ Red -> Green ] Scenarios
 1. Happening below support 
     First Candle: Big Red Candle / Little Wick
@@ -211,8 +192,35 @@ Tweezers Bottom Formation
     Second Candle: Big Green Candle with some wick
     - Second candle engulfs the first -> Support coming in -> Signals reversal
         -> Going green
-"""
 
+## The Market Structure
+There are three types of markets:
+1. Trending Markets
+    - Characterized by repeating pattern of higher highs and higher low in an 
+        up-trending market and lower high and lower low in a down-trending market
+    - Utilize bigger timeframes such as the 4H, daily, or weekly time frame 
+        to understand market structure
+    - Impulsive Move: This is when the makes an impulsive move along with trend
+    - Retracement Move: This is when the market pulls back and corrects itself
+2. Ranging Market
 
+## Support and Resistance levels
+These are proven areas where buyers and sellers find equilibrium
+    that are considered major turning points in the market
+    
+Forms when price reverses and changes direction 
+    -> Price will often respect these levels -> Contain price movement 
+        Until price breaks through them
+        
+If you understand how price action acts in a trending market
+    you can predict with high accuracy when the next move will begin
+    
+Bullish markets will tend to create a linear support and bearish markets 
+    will form a linear resistance level
+
+## How to draw trend lines
+>Find at least 2 swing points and connect them together
+>
+>Levels _**MUST**_ be clear, don't force a trend line
 
 
