@@ -148,8 +148,70 @@ Consists of two candlesticks
 """
 
 # Tweezers Pattern
+"""
+There are two Tweezers Patterns
 
+Tweezers Top Formation
+    - Considered Bearish Reversal Pattern when seen at the top of
+        an uptrend ( Green -> Red )
+    - First candle is a thick green candle with little wick
+    - Second candle is a thick red candle with little wick and is
+        a little larger than first candle
+    - Occurs during uptrend when buyers push price higher but
+        sellers surprise buyers by pushing market lower and closes
+        down below the previous candle's open
+    
+Tweezers Bottom Formation
+    - Considered Bullish Reversal Pattern when seen at the bottom of
+        a downtrend ( Red -> Green )
+    - First candle is thick red candle with little wick
+    - Second candle is a thick green candle with little wick and is the
+        same size or a little bigger than first candle
+    - Occurs during downtrend when sellers push market lower but 
+        next session closes above or at the previous candle's open. 
+        This means that buyers are coming to reverse the market direction
+    - If this happens near a support level, a bearish reversal is likely
+        about to happen
+"""
 
+# Candlestick Pattern Exercise Notes
+"""
+[ Red -> Green ] Scenarios
+1. Happening below support 
+    First Candle: Big Red Candle / Little Wick
+    Second Candle: Small Green Candle / Small wicks inside the first candle
+    - Harami -> Happening at a bottom of a downtrend so signals reversal
+
+2. 
+    Happening below support
+    First Candle: Big Red Candle
+    Second Candle: Big Green Candle
+    - Tweezers -> Both are around the same size so it means buyers are stepping in
+        to stop sellers -> Signals downtrend reversal -> Going green
+
+3. 
+    Happening Below Support
+    First Candle: Big Red Candle with small top wick
+    Second Candle:Even Bigger Green Candle that opens lower and closes higher 
+        than Previous candle 
+    - Bullish Engulfing Candle -> Overwhelming number of buyers coming in to 
+        push back sellers -> signals downtrend reversal -> Going green
+        
+4. 
+    Happening Above support
+    First Candle: Small Red Candle
+    Second Candle: Big Green Candle with some top/bottom wick
+    - Second candle also covers all of the first
+    - Bullsih engulfing candle -> Overwhelming support -> Signals reversal
+        -> Going Green
+
+5.
+    Happening Above support
+    First Candle: Small red candle
+    Second Candle: Big Green Candle with some wick
+    - Second candle engulfs the first -> Support coming in -> Signals reversal
+        -> Going green
+"""
 
 
 
