@@ -1,6 +1,8 @@
 # The Candle Stick Trading Bible
 ## By Munehisa Homma
 
+# Part I: Understanding Candles and the Markets
+
 ## What is a candlestick
 
 Candles vs Wicks
@@ -234,6 +236,8 @@ There are three types of markets:
 >           - Range boundaries are often overshot so it can give an illusion
 >       3. Waiting for a pullback after the breakout of the support, or the resistance level 
 
+> 3. Consolidating
+
 ## Support and Resistance levels
 These are proven areas where buyers and sellers find equilibrium
     that are considered major turning points in the market
@@ -286,3 +290,16 @@ The following are most important when reading charts:
     
 - Price Action Signal
     - Candlestick patterns that will provide you with a signal to buy or short the market
+
+# Part II Trading Strategies and Tactics
+
+## 3 Important Aspects of Price Action Trading
+1. Market Trends - Identifying market trends
+   - Is the market: trending, consolidating, or chopping?
+2. Levels - Drawing Support/Resistance and trend lines
+   - What are the most powerful levels in the market?
+3. Signals - Understanding different candlestick patterns & their formation
+   - What is the best signal to enter the market?
+    
+## Pin Bar Candlestick Pattern Strategy
+
