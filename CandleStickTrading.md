@@ -302,4 +302,17 @@ The following are most important when reading charts:
    - What is the best signal to enter the market?
     
 ## Pin Bar Candlestick Pattern Strategy
+Used to determine reversal points in the market
 
+Characterized by:
+- A long top/bottom wick that shows rejection 
+  - The market will move in opposite direction
+  - Long top wick = Bearish | Long bottom wick = Bullish
+  
+- A small candle 
+
+Before trading based off of price action
+- You need to look at volume
+    - The amount of money that buyers/sellers are risking
+- Quality pin bar setups occur in bigger time frames
+    - Smaller time frames generate false signals
